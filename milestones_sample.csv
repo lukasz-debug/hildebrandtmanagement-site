@@ -1,0 +1,6 @@
+name,owner,start_date,due_date,status,progress,notes
+Kickoff,Anna,2026-02-01,2026-02-05,DONE,100,Start projektu
+Analiza wymagań,Piotr,2026-02-06,2026-02-15,IN_PROGRESS,60,Zbieranie wymagań od klienta
+Implementacja MVP,Kasia,2026-02-16,2026-03-10,TODO,0,Kluczowe funkcje wersji 1.0
+Testy UAT,Marek,2026-03-11,2026-03-20,BLOCKED,20,Czekamy na dane testowe
+Go-live,Zespół,2026-03-25,2026-03-25,TODO,0,Publikacja produkcyjna
