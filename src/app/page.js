@@ -27,6 +27,20 @@ const advantages = [
 export default function Home() {
   return (
     <main>
+      <section>
+        <h2>Szybki fix: domena widzi pustą stronę?</h2>
+        <p>
+          Jeśli WordPress jest w katalogu <strong>www</strong>, a domena wskazuje na
+          katalog <strong>.</strong>, ustaw katalog główny domeny na <strong>www</strong>
+          w panelu OVH i odczekaj propagację zmian.
+        </p>
+        <ul className="checklist">
+          <li>DNS: rekordy A/AAAA kierują na właściwe IP hostingu.</li>
+          <li>Multisite / domena dodatkowa: katalog docelowy ustawiony na <strong>www</strong>.</li>
+          <li>WordPress: URL witryny i URL WordPressa ustawione na docelową domenę.</li>
+        </ul>
+      </section>
+
       <section className="hero">
         <p className="tag">Prezentacja współpracy inwestor ↔ generalny wykonawca</p>
         <h1>DEMOCO × Hildebrandt Management</h1>
